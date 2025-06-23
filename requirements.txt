@@ -1,0 +1,25 @@
+# Core FastAPI dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+jinja2==3.1.2
+
+# AI/ML dependencies
+openai-whisper==20231117
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# Image processing
+Pillow>=9.0.0
+
+# System utilities
+python-dotenv==1.0.0
+
+# Optional: For better performance
+# accelerate==0.24.1
+# transformers==4.35.2
+
+# Development dependencies (optional)
+# pytest==7.4.3
+# black==23.11.0
+# flake8==6.1.0
